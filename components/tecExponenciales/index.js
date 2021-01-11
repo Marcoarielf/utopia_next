@@ -2,11 +2,11 @@ import css from './styles.module.scss'
 
 export default function TecnologiasExponenciales() {
   return (
-    <section id="tecnologias-exponenciales">
+    <section className={css.tecnologias_exponenciales}>
         <h3>Tecnologías Exponenciales</h3>
-        <div className="linea-tecno"></div>
-            <div id="contenedor-tecnologias">
-                <div className="tecnologias">
+        <div className={css.linea_tecno}></div>
+            <div className={css.contenedor_tecnologias}>
+                <div className={css.tecnologias}>
                     <p><span>Inteligencia artificial</span></p>
                     <p><span>Big data</span></p>
                     <p><span>Ciencia de datos</span></p>
@@ -25,8 +25,8 @@ export default function TecnologiasExponenciales() {
                     <p><span>Territorios digitales</span></p>
                     </div>
             </div>
-        <div className="linea-tecno"></div>
-        <div className="descripcion-tec-ex">
+        <div className={css.linea_tecno}></div>
+        <div className={css.descripcion_tec_ex}>
             <p>Las tecnologías exponenciales son aquellas que siguen un patrón<br /> de crecimiento acelerado o exponencial; esto significa que, en poco<br /> tiempo, su precio y complejidad se reducen de forma relevante,<br /> mientras que su capacidad y el número de aplicaciones que las<br /> aprovechan aumenta de forma vertiginosa.</p>
         </div>
     </section>

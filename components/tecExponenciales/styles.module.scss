@@ -1,4 +1,4 @@
-#tecnologias-exponenciales{
+.tecnologias_exponenciales{
     width: 100%;
     margin: 0 0 6% 0;
     overflow: hidden;
@@ -17,7 +17,7 @@
         margin-bottom: 2%;
     }
 
-    .linea-tecno{
+    .linea_tecno{
         width: calc(668px + (1221 - 668) * ((100vw - 800px) / (1640 - 800)));
         height: 1px;
         border-bottom: 1px solid rgba(255,255,255,0.4);
@@ -27,7 +27,7 @@
         } 
     }
 
-    #contenedor-tecnologias{
+    .contenedor_tecnologias{
         white-space: nowrap;
         margin: 0;
         padding: 1.5% 0 3% 0;
@@ -56,7 +56,7 @@
             }
         }
     }
-    .descripcion-tec-ex{
+    .descripcion_tec_ex{
         width: calc(668px + (1221 - 668) * ((100vw - 800px) / (1640 - 800)));
         margin: 0 auto 0 auto;
         display: flex;
